@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recortar Imágenes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Herramienta de Recorte de Imágenes</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Sube tu imagen</h2>
+            <input type="file" id="imageInput" accept="image/*">
+        </section>
+
+        <section>
+            <h2>Selecciona la forma de recorte</h2>
+            <button data-shape="circle">Círculo</button>
+            <button data-shape="square">Cuadrado</button>
+            <button data-shape="triangle">Triángulo</button>
+            <button data-shape="pentagon">Pentágono</button>
+            <button data-shape="star">Estrella</button>
+            <button data-shape="heart">Corazón</button>
+            <button data-shape="hexagon">Hexágono</button>
+            <button data-shape="octagon">Octágono</button>
+            <button data-shape="diamond">Rombo</button>
+            <button data-shape="oval">Óvalo</button>
+        </section>
+        
+
+        <section>
+            <h2>Vista previa del recorte</h2>
+            <canvas id="canvas"></canvas>
+        </section>
+        <button id="downloadButton">Descargar Imagen</button>
+    </main>
+
+    <div id="donation-message">
+        <h3>¡Apóyanos con tu donación!
+        Tu contribución nos ayudará a seguir mejorando nuestras herramientas. Gracias por tu apoyo.</h3>
+        <p>Paypal Gmail: resendiz.01monse@gmail.com</p>
+        </form>
+    </div>
+    
+
+    <footer>
+        <p>&copy; 2024 Herramienta de Recorte</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
